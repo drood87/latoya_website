@@ -1,0 +1,177 @@
+body {
+	margin: 0;
+	background-image: url(./images/logo.jpg);
+	font-family: "Helvetica", sans-serif;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+}
+
+/*=======================*/
+/*Site Wrapper*/
+/*=======================*/
+
+#wrapper {
+	width: 80%;
+	border: 2px solid black;
+	background-color: white;
+	margin: 0 auto;
+	opacity: 0.95;
+	border-radius: 20px;
+}
+
+/*=======================*/
+/*Header styles*/
+/*=======================*/
+
+#logo {
+	width: 10rem;
+	height: 10rem;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 10px 0 10px 10px;
+}
+
+header h1 {
+	font-size: 3rem;
+	color: #99006b;
+	margin: 0 auto;
+	padding-right: 8rem;
+}
+
+/*=======================*/
+/*Navbar*/
+/*=======================*/
+
+ul {
+	list-style: none;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+/*=======================*/
+/*Content Styles*/
+/*=======================*/
+
+#content {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 0 auto; 
+}
+
+#content h2 {
+	text-align: center;
+}
+
+#picture {
+	content: url(./images/picture.jpg);
+	width: 70%;
+	margin: 0 auto;
+	border: 2px solid #99006b;
+}
+
+#green {
+	color: green;
+}
+
+/*=======================*/
+/*Products Section*/
+/*=======================*/
+
+#productsSection {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.Front_Pic {
+	border: 2px solid blue;
+	width: 70%;
+	height: 20%;
+	z-index: 10;
+	position: relative;
+}
+
+.Back_Pic {
+	border: 2px solid red;
+	width: 70%;
+	height: 15%;
+	transform: rotate(20deg);
+	position: relative;
+	bottom: 160px;
+}
+
+.hardware  {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: lightgreen;
+	width: 50%;
+	border: 1px solid black;
+}
+
+.software {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffb7b7;
+	width: 50%;
+	border: 1px solid black;
+}
+
+#productssection a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.hardware h3,
+.software h3 {
+	text-align: center
+}
+
+.imgWrapper {
+	margin: 0 auto;
+}
+
+/*=======================*/
+/*Link Styles*/
+/*=======================*/
+
+a:hover {
+	color: orange;
+}
+
+a:visited {
+	color: violet;
+}
+
+a:active {
+	color: green;
+}
+
+/*=======================*/
+/*HR Style*/
+/*=======================*/
+
+hr {
+	margin: 15px 10px 20px 10px;
+}
+
+
+
+
