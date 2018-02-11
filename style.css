@@ -149,6 +149,28 @@ nav ul{
 }
 
 /*=======================*/
+/*Table Styles*/
+/*=======================*/
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+#tabWrap {
+	overflow-y: auto;
+	overflow-x: auto;
+}
+
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+
+/*=======================*/
 /*Link Styles*/
 /*=======================*/
 
